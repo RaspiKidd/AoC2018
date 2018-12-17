@@ -1,6 +1,6 @@
 import re, collections
 
-*samples, _, program = open("input.txt").read().split('\n\n')
+samples, _, program = open("input.txt").read().split('\n\n')
 
 ops = {
     'addr': lambda regs, a, b: regs[a] + regs[b],
